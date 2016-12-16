@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Ajax Test</title>
+  </head>
+  <body>
+    <h1>View Normalized Job Options From Input</h1>
+
+
+
+    <form id="formJobTitle" action="" title="" method="get">
+        <h2>Type in a Job Title</h2>
+        <div>
+            <label class="title">Job Title:</label>
+            <input type="text" id="submitJobTitle" name="job_title" >
+        </div>
+        <div>
+            <input type="submit" id="submitButton"  name="submitButton" value="Submit">
+        </div>
+    </form>
+
+    <h2>Normalized Job Options</h2>
+    <div>
+      <ul id="normJobTitles"></ul>
+    </div>
+
+    <form id="formJobTitleNormalized" action="" title="" method="get">
+      <div>
+        <select id="select_title" name="jobTitleSelect">
+        <option value=""> - Select - </option>
+        </select>
+      </div>
+      <div>
+          <input type="submit" id="submitButton1"  name="submitButton1" value="Submit">
+      </div>
+    </form>
+    <h2>Related Skills to Normalized Job Options</h2>
+    <div>
+      <ul id="relatedSkills"></ul>
+    </div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
